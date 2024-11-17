@@ -99,7 +99,7 @@ const Footer = () => {
             <div className="flex items-center justify-between pt-10 mb-8">
                 <a
                   href="/"
-                  className="logo reveal-up"
+                  className="logo"
                 >
                     <img
                       src="/images/logo.svg"
@@ -109,7 +109,7 @@ const Footer = () => {
                     />
                 </a>
 
-                <p className="text-zinc-500 text-sm reveal-up">
+                <p className="text-zinc-500 text-sm">
                     &copy; 2024 <span className="text-zinc-200">Dirk van Tonder</span>
                 </p>
             </div>
