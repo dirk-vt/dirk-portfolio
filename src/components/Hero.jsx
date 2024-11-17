@@ -52,20 +52,6 @@ const Hero = () => {
             </div>
 
         </div>
-
-        <div className="hidden lg:block">
-            <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t
-             from-sky-400 via-25% via-sky-40/40 to-55% rounded-[900px] overflow-hidden">
-                <img
-                 src="/images/hero-banner.png"
-                 width={656}
-                 height={800}
-                 alt="Dirk van Tonder"
-                 className="w-full"
-                />
-            </figure>
-        </div>
-
     </div>
 
    </section> 
