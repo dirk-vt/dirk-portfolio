@@ -20,7 +20,7 @@ const skillItem = [
     },
     {
       imgSrc: '/images/typescript.svg',
-      label: 'JavaScript',
+      label: 'TypeScript',
       desc: 'Interaction'
     },
     {
@@ -58,10 +58,11 @@ const Skill = () => {
                 Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
             </p>
 
-            <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] ">
+            <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] reveal-up">
                 {
-                    skillItem.map(({ imgSrc, label, desc }, key) =>(
-                        <SkillCard 
+                    skillItem.map(({ imgSrc, label, desc }, key) =>
+                      (
+                        <SkillCard   // Add the reveal-up class to the SkillCard component to make it appear as it scrolls into view.  You can use the provided SkillCard component as a reference.  If you want to add more features to the SkillCard component, you can customize it further.  For example, you can add hover effects, animations, or even a tooltip with additional information.  You can also use the provided CSS classes and animations to achieve the desired
                             key={key}
                             imgSrc={imgSrc} 
                             label={label}
