@@ -49,18 +49,20 @@ const Work = () => {
     >
       <div className="container">
 
-        <h2 className="headline-2 mb-8">
+        <h2 className="headline-2 mb-8 reveal-up">
             My portfolio highlights
         </h2>
 
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
+        <div className="reveal-up grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
             {works.map(({ imgSrc, title, tags, projectLink }, key) => (
                 <ProjectCard 
                 key={key}
                 imgSrc={imgSrc}
                 title={title}
                 tags={tags}
-                projectLink={projectLink}  // Add the project link if available. Otherwise, leave it empty as a placeholder.  e.g., projectLink="https://github.com/codewithsadee/project-name"  for a link to a GitHub repo.  Don't forget to add the necessary CSS to display the project details and links.  You can use the provided ProjectCard component as a reference.  If you want to add more features to the Project
+                projectLink={projectLink}
+                className="reveal-up"
+                 // Add the project link if available. Otherwise, leave it empty as a placeholder.  e.g., projectLink="https://github.com/codewithsadee/project-name"  for a link to a GitHub repo.  Don't forget to add the necessary CSS to display the project details and links.  You can use the provided ProjectCard component as a reference.  If you want to add more features to the Project
                 />
             ))}
         </div>
