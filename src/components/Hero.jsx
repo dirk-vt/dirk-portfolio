@@ -32,10 +32,20 @@ const Hero = () => {
                     Available for work
                 </div>
             </div>
-            
-            <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[40ch] mt-5 mb-8 lg:mb-10">
-            Hi, I'm Dirk van Tonder, a Frontend Developer.
-            </h2>
+
+            <div className="max-w-[100ch] sm:max-w-[100ch] lg:max-w-[40ch] mt-5 mb-8 lg:mb-10">
+                <span className="headline-3">
+                    Hi there
+                </span>
+                    <br />
+                <span className="headline-3"> 
+                    I'm <span className="headline-4">Dirk van Tonder</span>,
+                </span>
+                    <br />
+                <span className="headline-4">
+                    a Frontend Developer
+                </span>
+            </div>
 
             <div className="flex items-center gap-3">
                 <ButtonPrimary
