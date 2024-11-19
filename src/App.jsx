@@ -41,7 +41,6 @@ const App = () => {
             <Hero />
             <About />
             <Skill />
-            <Work />
             <Contact />
         </main>
         <Footer />
