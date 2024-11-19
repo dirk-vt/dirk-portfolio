@@ -14,7 +14,7 @@ body {
     @apply translate-y-20 opacity-0
 }
 
-.headline-1, .headline-2 {
+.headline-1, .headline-2, .headline-3, .headline-4 {
     @apply max-w-max;
     background: -webkit-linear-gradient(0deg, #4c00ff,
     #ff00cc);
@@ -23,13 +23,20 @@ body {
 }
 
 .headline-1 {
-    @apply text-5xl leading-tight font-semibold lg:text-[35px]
+    @apply text-5xl leading-tight font-semibold lg:text-[45px]
 }
 
 .headline-2 {
     @apply text-3xl lg:text-4xl lg:leading-tight font-semibold
 } 
 
+.headline-3 {
+    @apply text-3xl lg:text-4xl lg:leading-tight
+}
+
+.headline-4 {
+    @apply text-4xl lg:text-4xl lg:leading-tight font-semibold
+}
 .title-1 {
     @apply text-[22px] font-normal
 }
