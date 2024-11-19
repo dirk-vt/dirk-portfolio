@@ -42,7 +42,7 @@ const Hero = () => {
                     I'm <span className="headline-4">Dirk van Tonder</span>,
                 </span>
                     <br />
-                <span className="headline-4">
+                <span className="headline-3">
                     a Frontend Developer
                 </span>
             </div>
