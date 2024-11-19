@@ -56,7 +56,7 @@ const Hero = () => {
 
                 <ButtonOutline
                 href="#about"
-                label="Scroll donw"
+                label="Scroll down"
                 icon="arrow_downward"
                 className="active:text-zinc-50"
                 />
